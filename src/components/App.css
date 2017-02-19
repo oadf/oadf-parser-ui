@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.dropzone {
+  cursor: pointer;
+  border: 1px dotted #cccccc;
+  margin: 0.75rem 0.25rem;
+  padding: 0.25rem 1rem;
+  line-height: 1.75rem;
+  background-color: #ffffff;
+  border-radius: 4px;
+  color: #696969;
+  width: 20rem;
+  text-align: center;
+}
+
+.select-wrapper {
+  flex: 0 0 15rem;
+  position: relative;
+  display: block;
+  margin: 0.75rem 0.25rem;
+  box-sizing: border-box;
+  line-height: normal;
+}
+
+.topBarWrap {
+  border-top: 3px solid #289e9b;
+}
+
+.graphiql-container .topBar {
+  height: 3.75rem;
+  padding: 0.25rem;
+  box-sizing: border-box;
+}
+
+.graphiql-container .title {
+  display: flex;
+  line-height: 3rem;
+}
+
+.graphiql-container .toolbar {
+  display: flex;
+  flex-grow: 1;
+  height: 3.75rem;
+  padding: 0.25rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.logo {
+  background: url(../images/logo.png) no-repeat;
+  background-size: cover;
+  width: 3.25rem;
+  height: 3.25rem;
+  margin-right: 0.25rem;
+}
