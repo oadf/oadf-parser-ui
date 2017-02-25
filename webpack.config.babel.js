@@ -28,8 +28,8 @@ module.exports = {
     app: './app.js',
   },
   output: {
-    filename: '[name].[chunkhash].js',
-    chunkFilename: '[name].[chunkhash].js',
+    filename: '[name].js',
+    chunkFilename: '[name].js',
     path: distPath,
     publicPath: '/',
   },
@@ -49,7 +49,7 @@ module.exports = {
       },
       {
         test: /\.png$/,
-        loader: 'file-loader?name=images/[name].[hash].[ext]',
+        loader: 'file-loader?name=images/[name].[ext]',
       },
     ],
   },
@@ -58,7 +58,7 @@ module.exports = {
       template: 'index.html',
     }),
     new ExtractTextPlugin({
-      filename: '[name].[chunkhash].css',
+      filename: '[name].css',
       disable: false,
       allChunks: true,
     }),
@@ -75,7 +75,7 @@ module.exports = {
       },
     }),
     new webpack.optimize.CommonsChunkPlugin({
-      names: ['parsers', 'vendor', 'manifest'],
+      names: ['parsers', 'vendor',],
     }),
     new webpack.optimize.UglifyJsPlugin({
       compress: {
