@@ -4,3 +4,4 @@ node_modules
 npm-debug.log
 stats.json
 0.js
+/.project
