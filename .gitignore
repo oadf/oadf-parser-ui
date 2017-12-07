@@ -5,3 +5,4 @@ npm-debug.log
 stats.json
 0.js
 /.project
+/package-lock.json
