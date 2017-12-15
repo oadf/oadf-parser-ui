@@ -22,7 +22,7 @@
   "dependencies": {
     "graphiql": "^0.9.3",
     "graphql": "^0.9.1",
-    "oadf-parser-seltec3-pdf": "^0.4.1",
+    "oadf-parser-seltec3-pdf": "^0.5.0",
     "pdfjs-dist": "^1.7.308",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
