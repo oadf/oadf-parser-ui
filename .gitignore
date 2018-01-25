@@ -6,3 +6,6 @@ stats.json
 0.js
 /.project
 /package-lock.json
+/nbproject/private/
+/nbproject/project.properties
+/nbproject/project.xml
